@@ -22,7 +22,6 @@ import org.springframework.stereotype.Component;
 @Component(value = "webDemoJob")
 public class DemoJobHandler extends IJobHandler {
 
-// yy-doc:12121
   @Override
   public ReturnT<String> execute(String param) throws Exception {
     XxlJobLogger.log("XXL-JOB, Hello World.");
