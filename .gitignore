@@ -1,0 +1,4 @@
+.idea/*
+aaaa.iml
+.githooks/post-commit
+scripts/yy_doc_sync.py
