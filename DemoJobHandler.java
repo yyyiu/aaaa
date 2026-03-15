@@ -22,10 +22,11 @@ import org.springframework.stereotype.Component;
 @Component(value = "webDemoJob")
 public class DemoJobHandler extends IJobHandler {
 
+    // yy-doc af1
   @Override
   public ReturnT<String> execute(String param) throws Exception {
     XxlJobLogger.log("XXL-JOB, Hello World.");
-super s 11 1 aa default:
+super s 11 1 aa default:1
    
     for (int i = 0, times = 5; i < times; i++) {
       XxlJobLogger.log("beat at:" + i);
